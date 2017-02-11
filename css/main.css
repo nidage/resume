@@ -179,5 +179,13 @@ nav li a:hover:after {
 }
 
 .ani{
-	
+
 }
+
+.title_en {
+	width: 0;
+	margin: 3px auto;
+	padding: 5px 0;
+	border-top: 2px solid #f00;
+}
+

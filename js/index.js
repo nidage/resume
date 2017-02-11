@@ -4,15 +4,11 @@
     'navigation': true,
     afterLoad: function(anchorLink, index){
       if(index == 2){
-        $('.section2').find('p').delay(500).animate({
-          left: '0'
-        }, 1500, 'easeOutExpo');
-        $('.section2').find('h2').css("border-bottom","2px solid red");
-        $('.section2').find('h2').css("margin","-10px 620px 0 620px");
-        $(".ani").fadeIn(1000, "linear");
-        $(".ani").html("·About me·");
-
-
+        
+        $("#about_content h1").after("<div class='title_en'><h2></h2></div>");
+        $(".title_en").animate({width:"130px"},800,function(){
+          $(".title_en h2").slideDown(400);
+        });
       }
       if(index == 3){
         $('.section3').find('p').delay(500).animate({
