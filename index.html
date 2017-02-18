@@ -7,10 +7,18 @@
 <link rel="stylesheet" href="css/main.css" type="text/css">
 <script type="text/javascript" src="js/index.js"></script>
 <link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/font-awesome.css">
 <script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/jquery.fullPage.min.js"></script>
 <script src="http://cdn.staticfile.org/jquery-easing/1.3/jquery.easing.min.js"></script>
 </head>
+<style>
+.section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+.section2 p { position: relative; left: -120%;}
+.section3 p { position: relative; bottom: -120%;}
+.section4 p { display: none;}
+.section1,.section2,.section3,.two,.section4,.section5,.section6 { background: url(images/minimal-wallpapers-retro-aforadultery-219196.jpg) no-repeat center center;background-size: cover;}
+</style>
 <body>
 <div class="main-wrap">
   <header>
@@ -23,73 +31,298 @@
       </div>
       <nav>
           <ul>
-              <li><a href="">首页</a></li>
-              <li><a href="">作品</a></li>
-              <li><a href="">联系</a></li>
-              <li><a href="">关于</a></li>
+              <li><a href="#page1">首页</a></li>
+              <li><a href="#page5">作品</a></li>
+              <li><a href="#page6">联系</a></li>
+              <li><a href="#page2">关于</a></li>
           </ul>
       </nav>
   </header>
   <div id="dowebok">
     <div class="section section1">
-
         <div id="home">
           <div id="home_content">
             <div id="home_head">
               <div id="home_head_content">
                 <img src="images/pic02.jpg" id="home_photo1" alt="" style="display: inline-block;">
-                <img src="images/pic03.jpg" id="home_photo2" alt="" style="display: none;">
+                <img src="images/1.png" id="home_photo2" alt="" style="display: none;">
               </div>
             </div>
             <div id="home_info">
               <p id="home_info1">那些自称什么都不知道的人，最终发现了他们的价值所在.</p>
               <div id="home_info_box">
                 <p id="home_info2">我叫谭愿波</p>
-                <p id="home_info3">26岁</p>
-                <p id="home_info4">一名前端工程师</p>
-                <p id="home_info5">454618448@qq.com</p>
+                <p id="home_info4">一名前端研发工程师</p>
+                <p id="home_info4">454618448@qq.com</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    <div class="section section2">
-      <div id="about">
-      <div id="about_content">
-        <div class="title">
-          <h1>关于我</h1>
-        </div>
 
-        <div id="about_list_content">
-          <div class="about_list" id="about_list1">
-            <div class="about_list_eg" id="about_en_edu">education</div>
-            <div class="about_list_cn" id="about_cn_edu">学历<p>本科</p></div>
+      <div class="section two">
+        <div id="about">
+          <div id="about_content">
+            <div class="title">
+              <h1>关于我</h1>
+            </div>
+            <div id="about_list_content">
+              <div class="about_list" id="about_list1">
+                <div class="about_list_eg" id="about_en_edu"><a href=""><i><img src="images/education.png"></i></a></div>
+                <div class="about_list_cn" id="about_cn_edu">学历<p>本科</p></div>
+              </div>
+                        <div class="about_list">
+                            <div class="about_list_eg" id="about_en_age"><a href=""><i><img src="images/age.png" alt=""></i></a></div>
+                            <div class="about_list_cn" id="about_cn_age">年龄<p>26岁</p></div>
+                        </div>
+                        <div class="about_list">
+                            <div class="about_list_eg" id="about_en_loc"><a href=""><i><img src="images/location.png" alt=""></i></a></div>
+                            <div class="about_list_cn" id="about_cn_loc">坐标<p>江门</p></div>
+                        </div>
+                        <div class="about_list">
+                            <div class="about_list_eg" id="about_en_sta"><a href=""><i><img src="images/status.png" alt=""></i></a></div>
+                            <div class="about_list_cn" id="about_cn_sta">状态<p>在职</p></div>
+                        </div>
+            </div>
+            <div id="about_info">
+              <p>2013年毕业于西南民族大学，现就职于佛山凹凸工业装备有限公司</p>
+              <p>电气工程及其自动化专业</p>
+              <p>业余时间在慕课网、FreeCodeCamp学习前端知识</p>
+              <p>在www.coursera.org在线课程网站学习python语言，完成相关课程独立制作小游戏</p>
+            </div>
           </div>
-            <div class="about_list">
-                <div class="about_list_eg" id="about_en_age">age</div>
-                <div class="about_list_cn" id="about_cn_age">年龄<p>25岁</p></div>
-            </div>
-            <div class="about_list">
-                <div class="about_list_eg" id="about_en_loc">location</div>
-                <div class="about_list_cn" id="about_cn_loc">坐标<p>成都</p></div>
-            </div>
-            <div class="about_list">
-                <div class="about_list_eg" id="about_en_sta">status</div>
-                <div class="about_list_cn" id="about_cn_sta">状态<p>在职</p></div>
+        </div>
+      </div>
+   <!-- skill -->
+    <div class="section section3">
+    <div id="skill">
+      <div id="skill_content">
+        <div class="title">
+          <h1>专业技能</h1>
+        </div>
+        <p>优秀的Web前端开发工程师首先要在知识体系上既要有广度和深度，其次具备快速学习能力</p>
+        </div>
+                <div id="skill_list">
+                    
+                    <div class="skill_list_content" id="skill_list2">
+                        <div class="skill_icon" id="skill_icon2"></div>
+                        <div class="skill_name">HTML</div>
+                        <div class="skill_flag"></div>
+                        <div class="skill_int" id="skill_int2">
+                          <ul>
+                            <li>深刻理解Web标准</li>
+                            <li>熟练运用html标签</li>
+                            <li>熟悉xml及xhtml标记语言</li>
+                            <li>掌握html5如SVG，localstorage新特性</li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="skill_list_content" id="skill_list3">
+                        <div class="skill_icon" id="skill_icon3"></div>
+                        <div class="skill_name">CSS</div>
+                        <div class="skill_flag"></div>
+                        <div class="skill_int" id="skill_int3">
+                          <ul>
+                            <li>熟练运用css及css3新属性</li>
+                            <li>掌握bootstrap框架及源码的实现</li>
+                            <li>掌握css预处理器Less及Sass</li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="skill_list_content" id="skill_list4">
+                        <div class="skill_icon" id="skill_icon4"></div>
+                        <div class="skill_name">JavaScript</div>
+                        <div class="skill_flag"></div>
+                        <div class="skill_int" id="skill_int4">
+                          <ul>
+                            <li>掌握jQuery</li>
+                            <li>掌握原生JS的编程</li>
+                            <li>注重JavaScript性能优化</li>
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="skill_list_content" id="skill_list1">
+                        <div class="skill_icon" id="skill_icon1"></div>
+                        <div class="skill_name">Python</div>
+                        <div class="skill_flag"></div>
+                        <div class="skill_int" id="skill_int1">
+                          <ul>
+                            <li>掌握基本语法和算法编程</li>
+                            <li>使用Python编写RiceRocks游戏程序</li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="about_info"></div>
-      </div>
-    </div>
-    </div>
-    <div class="section section3">
-      <h3>第三屏</h3>
-      <p>滚动到第三屏后的回调函数执行的效果</p>
-    </div>
+    <!-- skill end -->
     <div class="section section4">
-      <h3>第四屏</h3>
-      <p style="border-bottom: 1px solid red">滚动到第四屏后的回调函数执行的效果</p>
-      <h1>·About me·</h1>
+      <div id="exp">
+          <div id="exp_content">
+            <div class="title">
+                  <h1>我的经历</h1>
+                </div>
+                <div id="exp_info" class="exp_scale"></div>
+                <div id="exp_list_slider">
+                  <div id="exp_list_slider_content" class="exp_scale">
+                        <div id="exp_list_content">
+                            <div class="exp_list">
+                                <div class="exp_list_left">
+                                  <div id="exp_list_left1">
+                                        <dl>
+                                            <dt>江门市力泰科技有限公司 </dt>
+                                            <dd class="exp_list_time">2013年6月~2014年3月</dd>
+                                            <dd>电气技术员</dd>
+                                            <dd>汽车零部件自动检测设备部分电气电路设计和电气设备安装,调试。</dd>
+                                            <dd>现场项目电气设备安装和售后维护。</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                          </div>
+                          <div class="exp_list">
+                                <div class="exp_list_left">
+                                  <div id="exp_list_left2">
+                                        <dl>
+                                            <dt>广东亿恒工业装备有限公司</dt>
+                                            <dd class="exp_list_time">2014年4月~2016年5月</dd>
+                                            <dd>电气自动化设计员</dd>
+                                            <dd>非标自动化设备的的电气电路设计</dd>
+                                            <dd>自动控制的程序编写，现场调试工作</dd>
+                                            <dd>同期工作之余开始，系统性的自学web前端各项技术</dd>
+                                            
+                                        </dl>
+                                    </div>
+                              </div>
+                          </div>
+                            <div class="exp_list">
+                                <div class="exp_list_left">
+                                    <div id="exp_list_left3">
+                                        <dl>
+                                            <dt>佛山凹凸工业装备有限公司 </dt>
+                                            <dd class="exp_list_time">2016年6月~现在</dd>
+                                            <dd>电气自动化设计员</dd>
+                                            <dd>非标自动化设备的的电气电路设计</dd>
+                                            <dd>人机交互程序编写，工业机器人的自动工作编程，自动控制的程序编写</dd>
+                                            <dd>参与项目方案的可行性讨论</dd>
+                                            <dd>同期工作之余提升自己原生JS的编码能力</dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div id="exp_list_to">
+                      <div id="exp_list_toleft"><img src="images/exp_list_toleft.png" /></div>
+                      <div id="exp_list_toright"><img src="images/exp_list_toright.png" /></div>
+                    </div>
+                    </div>
+                    <div id="exp_timeline" class="exp_scale">
+                      <div>
+                            <a href="#" title="2014年3月~2014年9月"></a>
+                            <a href="#" title="2014年9月~2015年7月"></a>
+                            <a href="#" title="2015年7月~现在"></a>
+                        </div>
+                    </div>             
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- experience end -->
+     <!-- demo -->
+    <div class="section section5">
+      <div id="demo">
+          <div id="demo_content">
+              <div class="title">
+                  <h1>我的作品</h1>
+              </div>
+              <div id="demo_content_list">
+                <ul class="demo_box">
+                  <li class="demo_detail demo_scale">
+                    <div class="demo_box_content">
+                      <div class="demo_box_hover">
+                        <p class="demo_content_p">弹幕网页</p>
+                        <span class="demo_box_hover_icon">
+                          <a class="demo_box_link" href="https://nidage.github.io/danmu/" target="_blank">
+                          <img src="images/demo-link.png" alt="">
+                          </a>
+                        </span>
+                      </div>
+                      <img src="images/demo_box1.png" alt="" class="demo_box_bg"/>
+                    </div>
+                  <li class="demo_detail demo_scale"">
+                    <div class="demo_box_content">
+                      <div class="demo_box_hover">
+                        <p class="demo_content_p">企业网站</p>
+                        <span class="demo_box_hover_icon">
+                          <a class="demo_box_link" href="https://nidage.github.io/Studio/" target="_blank">
+                          <img src="images/demo-link.png" alt="">
+                          </a>
+                        </span>
+                      </div>
+                      <img src="images/demo_box2.png" alt="" class="demo_box_bg"/>
+                    </div>
+                  </li>
+                  <li class="demo_detail demo_scale"">
+                    <div class="demo_box_content">
+                      <div class="demo_box_hover">
+                        <p class="demo_content_p">慕课网</p>
+                        <span class="demo_box_hover_icon">
+                          <a class="demo_box_link" href="https://nidage.github.io/imooc-Enterprise-Translation/" target="_blank">
+                          <img src="images/demo-link.png" alt="">
+                          </a>
+                        </span>
+                      </div>
+                      <img src="images/demo_box3.png" alt="" class="demo_box_bg"/>
+                    </div>
+                  </li>
+                
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- demo end -->
+    <div class="section section6">
+      <div id="contact">
+      <div id="contact_content">
+        <div class="title">
+          <h1>联系我</h1>
+        </div>
+        <div id="contact_info" class="contact_scale"">
+            <div class="contactme">
+              <ul>
+                <li>
+                <i class="icon-map-marker"></i>
+                <p>住址</p>
+                <p>江门市新会区</p>
+                </li>
+                <li>
+                <i class="icon-envelope"></i>
+                <p>邮箱</p>
+                <p>454618448@qq.com</p>
+                </li>
+                <li>
+                <i class="icon-mobile-phone"></i>
+                <p>电话</p>
+                <p>180-2296-2336</p>
+                </li>
+              </ul>
+            </div>
+            <div class="contact_icon">
+              <ul class="share-group">
+                <li class="share-groupli"><a href="http://www.imooc.com/u/2692307" target="_blank"><i class="icon-laptop"></i> Imooc</a></li>
+                <li class="share-groupli"> <a href="https://github.com/nidage" target="_blank"><i class="icon-github"></i> Github</a></li>
+                <li class="share-groupli"> <a href="https://www.freecodecamp.cn/nidage" target="_blank"><i class="icon-bookmark"></i> freeCodeCamp</a></li>
+              </ul>
+            </div>
+            <div id="contact_way">
+              <div id="contact_message1" class="contact_message contact_scale">follow me</div>
+            </div>
+        </div>
+        <footer class="contact_scale">
+         <div class="contact_scale footer">Copyright © 谭愿波 All Rights Reserved</div>
+        </footer>
+        
+        </div>
     </div>
   </div>
 </div> 
