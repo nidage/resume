@@ -503,15 +503,15 @@ nav li a:hover:after {
 	position: absolute;
 	width: 60px;
 	height: 60px;
-	top: 42%;
+	top: 50%;
 	z-index: 100;
 	cursor: pointer;
 }
 #exp_list_toleft {
-	left: 2%;
+	left: 20%;
 }
 #exp_list_toright {
-	right: 2%;
+	right: 20%;
 }
 #exp1{
 	background-color: #eee;
@@ -717,6 +717,17 @@ footer{
 	display: none;
 }
 
-.exp_list_left2 dl{
-	font-style: 16px;
+#exp_list_left1 dt,#exp_list_left1 dd{
+	line-height: 30px;
+	height: 30px;
+}
+
+#exp_list_left2 dt,#exp_list_left2 dd{
+	line-height: 30px;
+	height: 30px;
+}
+
+#exp_list_left3 dt,#exp_list_left3 dd{
+	line-height: 30px;
+	height: 30px;
 }
