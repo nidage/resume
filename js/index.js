@@ -1,6 +1,6 @@
 ﻿$(function(){
   $('#dowebok').fullpage({
-    sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+    
     'anchors': ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
     'navigation': true,
     'navigationTooltips': ['首页', '关于我', '专业技能', '我的经历','我的作品','联系我'],
