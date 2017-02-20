@@ -405,6 +405,7 @@ nav li a:hover:after {
 	font-size: 12px;
 	padding-left: 15px;
 	float: left;
+	clear: both;
 	color: #000;
 }
 @-webkit-keyframes skill_scale {
@@ -506,6 +507,7 @@ nav li a:hover:after {
 	top: 50%;
 	z-index: 100;
 	cursor: pointer;
+	overflow: hidden;
 }
 #exp_list_toleft {
 	left: 20%;

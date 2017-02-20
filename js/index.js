@@ -75,7 +75,16 @@
           }
                 });
         $("#exp_list_to").fadeIn(800).delay(500).fadeTo(300,0.3);
+      
+
+        $("#exp_list_to img").mouseover(function(){
+        $("#exp_list_to").stop(true,false).fadeTo(300,1);}).mouseout(function(){
+        $("#exp_list_to").stop(true,false).fadeTo(300,0.3);
+        });
+
       }
+
+
       if(index==5){
         $("aside a").eq(4).addClass("selected").siblings().removeClass("selected");
         $("#demo_content h1").after("<div class='title_en'><h2>· Demo ·</h2></div>");
